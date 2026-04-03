@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:1f6feb&height=200&section=header&text=Shirish%20Ghimire&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Data%20Scientist%20%7C%20AI%20Builder&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:1f6feb&height=200&section=header&text=Shirish%20Ghimire&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Data%20Analyst%20by%20Day%20%7C%20AI%20Builder%20by%20Night&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Turning+data+into+decisions.;Building+AI+that+actually+helps+people.;ML+%7C+NLP+%7C+Generative+AI+%7C+Full-Stack." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Data+analytics+at+work.;AI+%26+ML+for+fun+%28and+impact%29.;Building+tools+I+wish+existed." alt="Typing SVG" />
 </a>
 
 </div>
@@ -12,11 +12,11 @@
 
 ## 👋 Hey, I'm Shirish
 
-I'm a data scientist who cares about building AI that solves **real problems for real people** — not just benchmark scores.
+By day, I'm a **Data Analyst at the University of Utah** — building dashboards, writing SQL, and turning messy institutional data into decisions that actually help students and leadership.
 
-My work sits at the intersection of machine learning, NLP, and product thinking. I've spent 4+ years at the University of Utah turning messy institutional data into tools that help students succeed and help leadership make better decisions. On the side, I build AI systems that I wish existed.
+By night, I build **AI and ML tools** that I wish existed. The kind that flag a struggling student before they drop out, or help someone figure out exactly what skills a job requires.
 
-> *If a model can flag a struggling student before they drop out, or help a job seeker understand what skills they're missing — that's the kind of impact I'm here for.*
+> *Analytics pays the bills. AI is where I tinker, learn, and build things that push past the dashboard.*
 
 ---
 
