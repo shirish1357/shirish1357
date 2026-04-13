@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:1f6feb&height=200&section=header&text=Shirish%20Ghimire&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Data%20Analyst%20by%20Day%20%7C%20AI%20Builder%20by%20Night&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFDAC1,100:F4A261&height=200&section=header&text=Shirish%20Ghimire&fontSize=52&fontColor=5a3e28&fontAlignY=38&desc=Data%20Analyst%20by%20Day%20%7C%20AI%20Builder%20by%20Night&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
 
 <a href="https://readme-typing-svg.demolab.com">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Data+analytics+at+work.;AI+%26+ML+for+fun+%28and+impact%29.;Building+tools+I+wish+existed." alt="Typing SVG" />
@@ -132,5 +132,5 @@ A university-branded fork of [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) (T
 </div>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:6e40c9&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F4A261,100:FFDAC1&height=120&section=footer" width="100%"/>
 </div>
