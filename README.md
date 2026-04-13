@@ -56,14 +56,21 @@ A dual-engine NLP system that extracts technical and soft skills from job postin
 ### 🤖 Lumen — AI Classroom Platform (University of Utah)
 > *Turn any topic or syllabus into a full semester-scale AI classroom.*
 
-A university-branded fork of [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) (Tsinghua University, published JCST 2026), extended into a complete student learning lifecycle tool. Give it a topic, a duration, or a syllabus PDF — and it spins up a structured multi-week AI classroom with virtual teachers, classmates, industry expert agents, quizzes, and mock interviews.
+A university-branded fork of [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) (Tsinghua University, published JCST 2026). The base project gives you a single AI classroom session — I extended it into a complete semester-scale study tool. Everything below was built on top of the original engine.
 
-- **Multi-agent classrooms:** live discussions with virtual teachers, student agents, and domain expert personas (SWE, PM, UX, Data Science)
-- **Course pipeline:** syllabus PDF → AI week-by-week plan → parallel generation (up to 3 weeks at once) → classroom playback
-- **Assessments:** auto-generated end-of-session quiz (5 questions, LLM-graded short answers), scores persisted and surfaced in a course library dashboard
-- **Interview Mode:** mock technical interviews with streamed AI evaluation cards
-- **Curriculum context:** 557 University of Utah degree programs integrated as live searchable context
-- **Stack:** Next.js · TypeScript · FastAPI · LangChain · IndexedDB · SSE streaming
+**Added on top of OpenMAIC:**
+
+- **Industry Expert Agent** — new `industry-expert` role with teacher-level permissions; 4 built-in personas (SWE · PM · UX · Data Science) with full create/edit dialog, avatar picker, and color swatches; director prompt updated to route experts as primary speakers
+- **Program Catalog** — 557 University of Utah degree programs (undergrad, grad, certificates, PhDs) loaded as searchable context; live Program Picker injects full curriculum (courses, outcomes, requirements) into the generation prompt
+- **Syllabus → Course Pipeline** — inline duration picker (Quick → 15 weeks); topic + duration → AI week-by-week plan; syllabus PDF import (AI extracts topics, user reviews before confirming); manual planning mode
+- **Course Generation Dashboard** (`/course-generation`) — up to 3 weeks generated in parallel; lazy generation (Week N+1 starts only after Week N completes); per-week progress phases; each week saved to IndexedDB for offline playback
+- **Course Library** (`/library`) — persistent dashboard with progress tracking (not started / in-progress / done), Start / Continue / Review per week, quiz score badges (green/amber/red)
+- **End-of-Classroom Quiz** — auto-triggered when a session ends; 5 questions (3 single-choice, 1 multiple-choice, 1 short-answer); choice questions graded locally, short-answer graded via LLM; scores persisted in IndexedDB
+- **Interview Mode** (`/interview`) — dedicated mock interview flow (4 expert types); stateless SSE streaming; ends with an AI evaluation card; pre-fills topic from the course library
+- **Course Progress Sidebar** — week navigator inside the classroom (completed / current / upcoming); jump between weeks without leaving the session; correctly threads `genParams` so lazy generation continues
+- **Model Selector** — provider + model switcher was wired in the codebase but never rendered; surfaced it in Settings → System so users can actually switch LLM providers
+
+**Stack:** Next.js 15 · React 19 · TypeScript · Tailwind CSS 4 · LangGraph · Zustand · IndexedDB (Dexie) · SSE streaming
 
 [![Repo](https://img.shields.io/badge/GitHub-lumen--ai--classroom-6e40c9?style=for-the-badge&logo=github)](https://github.com/shirish1357/lumen-ai-classroom)
 
