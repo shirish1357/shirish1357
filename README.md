@@ -53,6 +53,22 @@ A dual-engine NLP system that extracts technical and soft skills from job postin
 
 ---
 
+### 🤖 Lumen — AI Classroom Platform (University of Utah)
+> *Turn any topic or syllabus into a full semester-scale AI classroom.*
+
+A university-branded fork of [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) (Tsinghua University, published JCST 2026), extended into a complete student learning lifecycle tool. Give it a topic, a duration, or a syllabus PDF — and it spins up a structured multi-week AI classroom with virtual teachers, classmates, industry expert agents, quizzes, and mock interviews.
+
+- **Multi-agent classrooms:** live discussions with virtual teachers, student agents, and domain expert personas (SWE, PM, UX, Data Science)
+- **Course pipeline:** syllabus PDF → AI week-by-week plan → parallel generation (up to 3 weeks at once) → classroom playback
+- **Assessments:** auto-generated end-of-session quiz (5 questions, LLM-graded short answers), scores persisted and surfaced in a course library dashboard
+- **Interview Mode:** mock technical interviews with streamed AI evaluation cards
+- **Curriculum context:** 557 University of Utah degree programs integrated as live searchable context
+- **Stack:** Next.js · TypeScript · FastAPI · LangChain · IndexedDB · SSE streaming
+
+[![Repo](https://img.shields.io/badge/GitHub-lumen--ai--classroom-6e40c9?style=for-the-badge&logo=github)](https://github.com/shirish1357/lumen-ai-classroom)
+
+---
+
 ## Other Projects
 
 | Project | What it does | Stack |
