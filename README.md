@@ -1,20 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFDAC1,100:F4A261&height=200&section=header&text=Shirish%20Ghimire&fontSize=52&fontColor=5a3e28&fontAlignY=38&desc=Data%20Analyst%20by%20Day%20%7C%20AI%20Builder%20by%20Night&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+# Shirish Ghimire
 
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Data+analytics+at+work.;AI+%26+ML+for+fun+%28and+impact%29.;Building+tools+I+wish+existed." alt="Typing SVG" />
-</a>
+Data Analyst by Day | AI Builder by Night
 
 </div>
 
 ---
 
-## 👋 Hey, I'm Shirish
+## Hey, I'm Shirish
 
 By day, I'm a **Data Analyst at the University of Utah** — building dashboards, writing SQL, and turning messy institutional data into decisions that actually help students and leadership.
 
-By night, I build **AI and ML tools** that I wish existed. The kind that flag a struggling student before they drop out, or help someone figure out exactly what skills a job requires.
+By night, I build AI and ML tools that I wish existed. The kind that flag a struggling student before they drop out, or help someone figure out exactly what skills a job requires.
 
 > *Analytics pays the bills. AI is where I tinker, learn, and build things that push past the dashboard.*
 
@@ -22,7 +20,22 @@ By night, I build **AI and ML tools** that I wish existed. The kind that flag a 
 
 ## Featured Projects
 
-### 🎓 Student Dropout Prediction — Early Warning System
+### Medicare Patient Segmentation (CMS DE-SynPUF)
+> *Among Medicare beneficiaries with chronic conditions, which patient segments drive disproportionate cost — and how should a health system prioritize them for outreach?*
+
+End-to-end population health segmentation pipeline on synthetic Medicare claims data. Built as a rigorous portfolio piece: installable Python package, validated clusters, interactive dashboard, and an executive briefing rendered in Quarto.
+
+- **Cohort:** 45,305 fee-for-service Medicare beneficiaries, 2009 baseline features, 2010 outcomes held out
+- **Methods:** K-Means and GMM swept across K=2–10; algorithm selected on Hennig-style Jaccard stability (20-iteration 80% subsample validation)
+- **Result:** 5 stable segments with distinct cost, utilization, and condition profiles; prioritization framework maps each segment to CMS care management codes
+- **Stack:** Python · scikit-learn · pandas · Plotly Dash · Quarto · GitHub Actions CI
+- **Tests:** 27 unit tests covering cohort logic, Charlson CCI mapping, and Jaccard stability
+
+[![Repo](https://img.shields.io/badge/GitHub-patientsegmentation-6e40c9?style=for-the-badge&logo=github)](https://github.com/shirish1357/patientsegmentation)
+
+---
+
+### Student Dropout Prediction — Early Warning System
 > *Can we catch at-risk students before it's too late?*
 
 An end-to-end ML platform that ingests student engagement data and predicts dropout risk — surfacing ranked intervention lists for academic advisors.
@@ -37,23 +50,7 @@ An end-to-end ML platform that ingests student engagement data and predicts drop
 
 ---
 
-### Job Skill Extractor v2.0 — NLP Skill Intelligence
-> *What skills does a job actually require? Let's extract that at scale.*
-
-A dual-engine NLP system that extracts technical and soft skills from job postings using two competing approaches — rule-based and ML-based — then compares their accuracy head-to-head.
-
-- **Rule-based engine:** spaCy PhraseMatcher + regex — fast, precise, production-ready
-- **ML engine:** sentence-transformers semantic matching — broader coverage, discovers skill variations
-- **Skill database:** 200+ hard skills (languages, frameworks, cloud/DevOps) · 40+ soft skills
-- **Data:** LinkedIn job postings pipeline via Kaggle API
-- **Stack:** Python · spaCy · sentence-transformers · FastAPI · TypeScript · HTML/CSS · Jupyter
-- **Interface:** REST API + interactive web UI for real-time extraction
-
-[![Repo](https://img.shields.io/badge/GitHub-Job__Skill__Extractor__v2.0-6e40c9?style=for-the-badge&logo=github)](https://github.com/shirish1357/Job_Skill_Extractor_v2.0)
-
----
-
-### 🤖 Lumen — AI Classroom Platform (University of Utah)
+### Lumen — AI Classroom Platform (University of Utah)
 > *Turn any topic or syllabus into a full semester-scale AI classroom.*
 
 A university-branded fork of [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) (Tsinghua University, published JCST 2026). The base project gives you a single AI classroom session — I extended it into a complete semester-scale study tool. Everything below was built on top of the original engine.
@@ -80,6 +77,7 @@ A university-branded fork of [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) (T
 
 | Project | What it does | Stack |
 |--------|-------------|-------|
+| [**Job Skill Extractor v2.0**](https://github.com/shirish1357/Job_Skill_Extractor_v2.0) | Dual-engine NLP (rule-based + semantic) to extract skills from job postings at scale | Python · spaCy · sentence-transformers · FastAPI · TypeScript |
 | [**HigherEdAssist**](https://github.com/shirish1357/HigherEdAssist) | Conversational AI for academic program advising | Python · LLMs · ChromaDB · FastAPI · Next.js |
 | [**OncoAI**](https://github.com/shirish1357/OncoAI) | AI oncology support assistant for patient education | Python · OpenAI API · Gradio |
 | [**twin**](https://github.com/shirish1357/twin) | AI digital twin of me — full-stack with infra | Python · TypeScript · Terraform |
@@ -129,8 +127,4 @@ A university-branded fork of [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) (T
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shirish%20Ghimire-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shirishghimire)
 [![Email](https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shirish.ghm@gmail.com)
 
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F4A261,100:FFDAC1&height=120&section=footer" width="100%"/>
 </div>
