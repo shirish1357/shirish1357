@@ -1,8 +1,10 @@
 <div align="center">
 
-# Shirish Ghimire
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FAE3D9,100:F2A27D&height=180&section=header&text=Shirish%20Ghimire&fontSize=52&fontColor=5a3025&fontAlignY=38&animation=fadeIn" width="100%"/>
 
-Data Analyst by Day | AI Builder by Night
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=20&pause=1000&color=C4633A&center=true&vCenter=true&width=600&lines=Data+Analyst+by+Day.;AI+Builder+by+Night." alt="Typing SVG" />
+</a>
 
 </div>
 
